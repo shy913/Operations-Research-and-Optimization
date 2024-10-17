@@ -1,6 +1,11 @@
 # Operations Research & Optimization
+
+By shy
+
+This is my homework of Operations Research & Optimization, so it may not be updated.
+
 ## Simplex Method & Simplex Table
-Contains a solver to linear programming problem using simplex method while showing the simplex table. Also it can tell the nature of the solution. This is my homework of Operations Research & Optimization, so it may not be updated. 
+Contains a solver to linear programming problem using simplex method while showing the simplex table. Also it can tell the nature of the solution. 
 ### How to use:
 1. Transform the LP problem to standard form:
 
@@ -14,6 +19,7 @@ Contains a solver to linear programming problem using simplex method while showi
 3. import shypy
 4. Let Solution = maximize(c, A, b)
 5. Solution().show()
+
 Note that bugs may exsist! 
 ### Existing bugs: 
 1. In some cases, especially when there're multiple solutions, the number of basic variables may be more than $m$.
