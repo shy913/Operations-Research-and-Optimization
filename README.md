@@ -24,4 +24,4 @@ Note that bugs may exsist!
 ### Existing bugs: 
 1. In some cases, especially when there're multiple solutions, the number of basic variables may be more than $m$.
 
-## Fibonacci Search & BIsection Search
+## Fibonacci Search & Bisection Search
