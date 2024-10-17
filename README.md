@@ -25,3 +25,16 @@ Note that bugs may exsist!
 1. In some cases, especially when there're multiple solutions, the number of basic variables may be more than $m$.
 
 ## Fibonacci Search & Bisection Search
+### How to use:
+fib_search(f, a, b, n):
+    param f: The function to be evaluated.
+    param a: Left node of the interval
+    param b: Right node of the interval
+    param n: Total number of evaluation
+    return: Final Interval
+    example:
+    ```python
+    def func(x):
+    return x ** 2 - 6 * x + 2
+fib_search(func, 0, 10, 34)
+    ```
