@@ -33,7 +33,7 @@ fib_search(f, a, b, n):
     param n: Total number of evaluation
     return: Final Interval
     example:
-    ```python
+    ``` python
     def func(x):
     return x ** 2 - 6 * x + 2
 fib_search(func, 0, 10, 34)
