@@ -9,7 +9,7 @@ Contains a solver to linear programming problem using simplex method while showi
 ### How to use:
 1. Transform the LP problem to standard form:
 
-  Maximize c^T x
+  Maximize $c^T x$
 
   Subject to {A x = b, x >= 0
 
